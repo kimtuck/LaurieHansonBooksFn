@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=lauriehansonboo9ae3;AccountKey=+puDwh25TsF6M2FLD3eo0IpJDUjJlK77M+EoRmDwlqDY+Om/pT93yISXXRGHeH7Jx/5489xYQjZyukiYKh/AYQ==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=lauriehansonboo9ae3;AccountKey=+puDwh25TsF6M2FLD3eo0IpJDUjJlK77M+EoRmDwlqDY+Om/pT93yISXXRGHeH7Jx/5489xYQjZyukiYKh/AYQ==",
+    "WEBSITE_CONTENTSHARE": "lauriehansonbooksfns9ae3",
+    "WEBSITE_SITE_NAME": "LaurieHansonBooksFns",
+    "WEBSITE_SLOT_NAME": "Production",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=lauriehansonboo9ae3;AccountKey=+puDwh25TsF6M2FLD3eo0IpJDUjJlK77M+EoRmDwlqDY+Om/pT93yISXXRGHeH7Jx/5489xYQjZyukiYKh/AYQ=="
+  }
+}
