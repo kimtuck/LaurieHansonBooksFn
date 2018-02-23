@@ -8,11 +8,6 @@
       "name": "req"
     },
     {
-      "type": "http",
-      "direction": "out",
-      "name": "res"
-    },
-    {
       "name": "$return",
       "type": "sendGrid",
       "direction": "out",
