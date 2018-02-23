@@ -13,6 +13,6 @@ module.exports = function (context, input) {
             value: 'hello there'
         }]
     };
-
+    console.log("we just ran");
     context.done(null, message);
 };
