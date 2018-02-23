@@ -16,7 +16,7 @@
       "name": "$return",
       "type": "sendGrid",
       "direction": "out",
-      "apiKey" : "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",
+      "apiKey" : "MySendGridKey",
       "to": "{ToEmail}",
       "from": "{FromEmail}",
       "subject": "SendGrid output bindings"
