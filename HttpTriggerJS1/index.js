@@ -1,17 +1,13 @@
-module.exports = function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
+module.exports = function (context, input) {
+    var message = {
+        "personalizations": [ { "to": [ { "email": "robert.hanson@solutiondesign.com" } ] } ],
+        from: { email: "sender@contoso.com" },
+        subject: "Azure news",
+        content: [{
+            type: 'text/plain',
+            value: input
+        }]
+    };
 
-    if (req.query.name || (req.body && req.body.name)) {
-        context.res = {
-            // status: 200, /* Defaults to 200 */
-            body: "Hello this is a changed msg " + (req.query.name || req.body.name)
-        };
-    }
-    else {
-        context.res = {
-            status: 400,
-            body: "Please pass a name on the query string or in the request body"
-        };
-    }
-    context.done();
+    context.done(null, message);
 };
