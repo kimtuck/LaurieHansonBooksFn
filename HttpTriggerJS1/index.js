@@ -1,6 +1,11 @@
 module.exports = function (context, input) {
     var message = {
-        "personalizations": [ { "to": [ { "email": "robert.hanson@solutiondesign.com" } ] } ],
+        "personalizations": [
+            { "to": [
+                { "email": "robert.hanson@solutiondesign.com" }
+                ]
+            }
+            ],
         from: { email: "sender@contoso.com" },
         subject: "Azure news",
         content: [{

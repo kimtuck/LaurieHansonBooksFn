@@ -17,8 +17,8 @@
       "type": "sendGrid",
       "direction": "out",
       "apiKey" : "MySendGridKey",
-      "to": "{ToEmail}",
-      "from": "{FromEmail}",
+      "to": "RobertHanson@solutiondesign.com",
+      "from": "Test@test.com",
       "subject": "SendGrid output bindings"
     }
   ]
