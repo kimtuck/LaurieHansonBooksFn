@@ -12,7 +12,8 @@ module.exports = function (context, input) {
             }
             ],
         from: { email: "SomeSender@contoso.com" },
-        subject: "Azure news"
+        subject: "Azure news",
+        template_id: '2675ca4b-a347-4bd3-8891-54b1270e2ef2'
     };
     context.log("we just ran");
     context.done(null, message);
