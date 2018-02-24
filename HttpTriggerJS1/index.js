@@ -1,5 +1,9 @@
 module.exports = function (context, input) {
-    context.log("input", input)
+    //context.log("input", input)
+
+    var parameters = input.body;
+    context.log(parameters);
+
     var message = {
         "personalizations": [
             { "to": [
@@ -8,11 +12,7 @@ module.exports = function (context, input) {
             }
             ],
         from: { email: "SomeSender@contoso.com" },
-        subject: "Azure news",
-        content: [{
-            type: 'text/plain',
-            value: 'hello there'
-        }]
+        subject: "Azure news"
     };
     context.log("we just ran");
     context.done(null, message);
