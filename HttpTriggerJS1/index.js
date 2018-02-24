@@ -50,7 +50,7 @@ module.exports = function (context, input) {
         from: { email: "sender@contoso.com" },
         subject: "Azure news",
         template_id: '2675ca4b-a347-4bd3-8891-54b1270e2ef2',
-        "sub": {
+        sub: {
             "-name-": [
                 "XXXJohn",
                 "XXXJane"
@@ -71,7 +71,7 @@ module.exports = function (context, input) {
                 "3:00pm",
                 "5:15pm"
             ]
-
+        }
     };
     message = extend(message, parameters);
     context.log(message);
