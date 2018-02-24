@@ -73,7 +73,7 @@ module.exports = function (context, input) {
             ]
         }
     };
-    message = extend(message, parameters);
+    //message = extend(message, parameters);
     context.log(message);
 
     context.log("we just ran");
