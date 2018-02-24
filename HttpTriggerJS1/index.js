@@ -6,11 +6,11 @@ module.exports = function (context, input) {
                 ]
             }
             ],
-        from: { email: "sender@contoso.com" },
+        from: { email: "SomeSender@contoso.com" },
         subject: "Azure news",
         content: [{
             type: 'text/plain',
-            value: 'hello there'
+            value: input
         }]
     };
     context.log("we just ran");
