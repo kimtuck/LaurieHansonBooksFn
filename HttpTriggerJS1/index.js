@@ -1,4 +1,5 @@
 module.exports = function (context, input) {
+    context.log("input", input)
     var message = {
         "personalizations": [
             { "to": [
@@ -10,7 +11,7 @@ module.exports = function (context, input) {
         subject: "Azure news",
         content: [{
             type: 'text/plain',
-            value: input
+            value: 'hello there'
         }]
     };
     context.log("we just ran");
