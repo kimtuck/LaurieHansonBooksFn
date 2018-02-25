@@ -22,7 +22,8 @@ module.exports = function (context, input) {
             { "to": [
                 { "email": "robert.hanson@solutiondesign.com" }
                 ]
-            }
+            },
+            { "-name-" : [ "john"] }
         ],
         "sub": {
             "-name-": [
