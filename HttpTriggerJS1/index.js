@@ -23,7 +23,11 @@ module.exports = function (context, input) {
                 { "email": "robert.hanson@solutiondesign.com" }
                 ]
             },
-            { "-name-" : [ "john"] }
+            {
+                "sub": [
+                    {"-name-": ["john"]}
+                ]
+            }
         ],
         "sub": {
             "-name-": [
