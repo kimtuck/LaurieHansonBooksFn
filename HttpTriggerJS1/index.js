@@ -33,7 +33,7 @@ module.exports = function (context, input) {
         template_id: '2675ca4b-a347-4bd3-8891-54b1270e2ef2',
         "-name-": [ "mynameishello" ]
     };
-    message = extend(message, parameters);
+    //message = extend(message, parameters);
     context.log(message);
 
     context.log("we just ran");
