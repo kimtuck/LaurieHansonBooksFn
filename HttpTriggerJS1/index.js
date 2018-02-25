@@ -22,8 +22,7 @@ module.exports = function (context, input) {
             { "to": [
                 { "email": "robert.hanson@solutiondesign.com" }
                 ]
-            },
-            { "-name-": [ "John" ] }
+            }
         ],
         from: { email: "sender@contoso.com" },
         subject: "Azure news",
