@@ -20,12 +20,8 @@ module.exports = function (context, input) {
     var message = {
         "personalizations": [
             { "to": [
-                { "email": "robert.hanson@solutiondesign.com" }
-                ]
-            },
-            {
-                "sub": [
-                    {"-name-": ["john"]}
+                { "email": "robert.hanson@solutiondesign.com" },
+                {"-name-": ["john"]}
                 ]
             }
         ],
