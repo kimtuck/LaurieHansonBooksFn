@@ -9,7 +9,7 @@ module.exports = function (context, input) {
                 "to": [{"email": "robert.hanson@solutiondesign.com"}],
                 "substitutions": {
                     "-name-": parameters.name,
-                    "-school-": paramters.school,
+                    "-school-": parameters.school,
                     "-email-": parameters.email,
                     "-message-": parameters.message
                 }
